@@ -1,0 +1,11 @@
+.tempest_wiki_index/
+.tempest_local_index/
+build/
+tempest.secrets
+tempest_local.db
+.cache/
+*.bz2
+0.8b_model/
+3b_model/
+llama.cpp-master/
+llama.cpp-master.zip

@@ -1,0 +1,17 @@
+# Tempest configuration (non-secret)
+#
+# Copy to `tempest.conf` and edit.
+
+# Where the wiki index lives
+wiki.index_dir=.tempest_wiki_index
+
+# Local library storage (SQLite if available; otherwise fallback files)
+library.db_path=tempest_local.db
+
+# Model paths
+model.path.1bit=1bit_model/model.gguf
+model.path.0_8b=0.8b_model/model.gguf
+model.path.3b=3b_model/model.gguf
+
+# Adaptive routing
+model.auto=true
